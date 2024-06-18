@@ -1,5 +1,5 @@
 # Python-Programming-Week-5
-Balanced Array
+1.Balanced Array
 
 Given an array of numbers, find the index of the smallest array element (the pivot), for which the sums of all elements to the left and to the right are equal. The array may not be reordered.
 
@@ -44,7 +44,7 @@ for i in range(len(arr)):
         break
 
 print(pivot)
-#Check pair with difference k
+2.#Check pair with difference k
 
 Given an array A of sorted integers and another non negative integer k, find if there exists 2 indices i and j such that A[i] - A[j] = k, i != j.
 
@@ -105,7 +105,7 @@ while(T):
         print(0)
 
     T=T-1
-    #Count Elements
+   3. #Count Elements
 
 Complete the program to count frequency of each element of an array. Frequency of a particular element will be printed once.
 
@@ -143,7 +143,7 @@ for number, count in frequency.items():
 
 
 
-#Distinct Elements in an Array
+4.#Distinct Elements in an Array
 
 Program to print all the distinct elements in an array. Distinct elements are nothing but the unique (non-duplicate) elements present in the given array.
 
@@ -175,7 +175,7 @@ P=' '.join(str(i) for i in p)
 
 print(P) 
 
-#Element Insertion
+5.#Element Insertion
 
 Consider a program to insert an element / item in the sorted array. Complete the logic by filling up required code in editable section. Consider an array of size 10. The eleventh item is the data is to be inserted.
 
@@ -210,7 +210,7 @@ for i in range(11):
  print(l[i],end="")
 
  print('')
- #Find the Factor
+6. #Find the Factor
 
 Determine the factors of a number (i.e., all positive integer values that evenly divide into a number) and then return the pth element of the list, sorted ascending. If there is no pth element, return 0.
 
@@ -253,7 +253,7 @@ elif(p>s):
 else:
 
     print(p)
-#Merge List
+7. #Merge List
 
 Write a Python program to Zip two given lists of lists.
 
@@ -317,7 +317,7 @@ z.append(m)
 
 print(z)
 
-#Merge Two Sorted Arrays Without Duplication
+8 . #Merge Two Sorted Arrays Without Duplication
 
 Output is a merged array without duplicates.
 
@@ -377,7 +377,7 @@ if z==0:
 
  print(f"{b} is not present in the array.")
 
-#Print Element Location
+10. #Print Element Location
 
 Write a program to print all the locations at which a particular element (taken as input) is found in a list and also print the total number of times it occurs in the list. The location starts from 1.
 
